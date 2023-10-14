@@ -551,14 +551,18 @@
             </div>
             </div>
             <div class="modal-field">
-            <label for="user-comment" class="modal-label">Comment</label>
-            <input 
-            type="text" 
-            name="user-comment" 
-            class="modal-input"
-            id="user-comment" 
-            placeholder="Text input" 
-            />
+            <label for="user-text" class="modal-label">Comment</label>
+            <textarea
+             name="user-text"
+             class="modal-text"
+             id="user-text"
+             placeholder="Text input"></textarea> 
+            </div>
+            <div class="modal-field">
+                <input type="checkbox" name="modal-check" id="modal-check" class="check-input"/>
+                <label for="modal-check" class="check-text">
+                    I accept the terms and conditions of the 
+                    <a href="">Privacy Policy</a></label>
             </div>
             <button type="submit">Send</button>
         </form>
