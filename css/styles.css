@@ -422,20 +422,17 @@ margin-bottom: 16px;
   fill: #f4f4fd;
 }
 .footer-bottom {
-  display: inline-block;
-  justify-content: flex-start;
-  align-items: center;
+display: inline-block;
 }
 .footer-form {
   display: inline-block;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 .footer-form-email {
   display: flex;
  flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 24px;
 }
 .footer-bottom-text {
   color: #FFF;
